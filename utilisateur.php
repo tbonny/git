@@ -28,6 +28,8 @@
                         }else{
                                 echo"mot de passe ou nom d'utilisateur incorrect";
                                 }
+
+                     //pas de paramètres dans inscription et problème avec $this.identifiant + session
                 ?>
              </form>
     </body>
