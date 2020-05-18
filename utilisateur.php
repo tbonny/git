@@ -1,6 +1,7 @@
 <html>
     <?php require("index_utilisateur.php");
-    ?>
+           ?>
+
         <head>
             <title>exercice</title>
         </head>   
@@ -30,6 +31,8 @@
                                 }
 
                      //pas de paramètres dans inscription et problème avec $this.identifiant + session
+                     //paramètres inscription rêglé, session en cours
+                     //session rêglé ? à tester
                 ?>
              </form>
     </body>

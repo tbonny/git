@@ -11,7 +11,7 @@ public function inscription($id_user, $mdp_user){
         //execution du code sur la BDD 
         $BDD = new PDO('mysql:host=localhost; dbname=; charset=utf8','root','');
         $inscription = $BDD->query('INSERT INTO `inscription` (`nom_user`, `mdp`) VALUES ("'$this->.$id_user.'","'$this->.$mdp_user.'")');
-    
+        $session_start ();
     }
 
     catch (Exception $erreur)
